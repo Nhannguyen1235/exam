@@ -8,7 +8,7 @@ import SearchBar from './ChemicalApp/SearchBar';
 export default function App() {
   return (
     <div>
-      <Container>
+      <Container className='text-center'>
         <AddChemical/>
       <ChemicalItem/>
       <SearchBar/>
