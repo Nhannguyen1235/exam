@@ -13,7 +13,7 @@ export default function AddChemical() {
     return (
       <div>
         <Form>
-        <input type="text" placeholder="Nhập tên hóa học" value={newNameChemical} onChange={(e)=>setNewNameChemical(e.target.value)}/>
+        <input type="text" className="m-3" placeholder="Nhập tên hóa học" value={newNameChemical} onChange={(e)=>setNewNameChemical(e.target.value)}/>
         <input type="text" placeholder="Nhập công thức hóa học" value={newFormulaChemical} onChange={(e)=>setNewFormulaChemical(e.target.value)}/>
         <input type="submit" onClick={()=>handle_addChemical({name:newNameChemical,formula:newFormulaChemical})}></input>
         </Form>
